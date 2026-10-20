@@ -2,8 +2,10 @@ packages:
   - "apps/*"
   - "packages/*"
 allowBuilds:
+  '@google/genai': true
   electron: true
   esbuild: true
+  protobufjs: true
   unrs-resolver: true
 minimumReleaseAgeExclude:
   - '@expo/cli@58.1.13'
